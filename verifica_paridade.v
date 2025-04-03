@@ -3,6 +3,6 @@ module verifica_paridade (
   output erro
 );
 
-// implemente o seu código aqui
+  assign erro = ^dado;
 
 endmodule
